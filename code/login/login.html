@@ -11,17 +11,26 @@
     <div class="cont">
         <div class="cont-header">
             <div class="text">
-                Bem vindo
+                Login
             </div>
             <div class="btn_login">
-                <img src="/code/src/iconpack/btn_loginpng.png" alt="" height="50px">
+                <img src="/code/src/iconpack/btn_loginpng.png" alt="" height="33px" width="33px">
             </div>
         </div>
-        <div class="register-box">
-            <input type="text" name="" id="" class="username">
-            <input type="text" name="" id=""class="email">
-            <input type="password" name="" id="" class="password">
-        </div>
+        <form class="register-box">
+            <div class="cont-inputs username">
+                <input type="text" name="" id="username" autocomplete="no" required>
+                <p>Username</p>
+            </div>
+            <div class="cont-inputs">
+                <input type="email" name="" id="email-input" autocomplete="no" required> 
+                <p>Email</p>
+            </div>
+            <div class="cont-inputs">
+                <input type="password" name="" id="pass-input" autocomplete="no" required>
+                <p>Password</p>
+            </div>
+        </form>
         <div class="cont-gp">
             <div class="cont-photo">
                 <input type="file" id="" class="">

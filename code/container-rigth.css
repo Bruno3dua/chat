@@ -147,7 +147,8 @@
     background-color: #fff7f0;
     flex-direction: column;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
     max-width: 80%;
 }
 
@@ -189,7 +190,8 @@
     width: fit-content;
     background-color: #fdebda;
     flex-direction: column;
-    border-radius: 10px;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
     padding: 8px;
     max-width: 80%;
 }

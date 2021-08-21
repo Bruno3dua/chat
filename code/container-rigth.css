@@ -110,15 +110,64 @@
     align-items: center;
     justify-content: space-between;
     width: 40px;
-    margin-right: 15px;
+    margin-right: 45px;
 }
 
 .cont>.cont-right>.cont-gp-msg>.cont-head>.cont-options>.btn_close{
     cursor: pointer;
+    margin-top: 5px;
 }
 
 .cont>.cont-right>.cont-gp-msg>.cont-head>.cont-options>.btn_more{
+    
+}
+
+.cont>.cont-right>.cont-gp-msg>.cont-head>.cont-options>.btn_more>.btn-more-options{
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
     cursor: pointer;
+}
+
+.cont>.cont-right>.cont-gp-msg>.cont-head>.cont-options>.btn_more>.btn-more-options:focus{
+    background-color: rgb(253, 235, 218, 0.9);
+}
+
+.cont>.cont-right>.cont-gp-msg>.cont-head>.cont-options>.btn_more>.cont-sub-menu{
+    position: absolute;
+    background-color: #fff;
+    width: 200px;
+    margin-top: 11px;
+    margin-left: -117px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: none;
+}
+
+.cont>.cont-right>.cont-gp-msg>.cont-head>.cont-options>.btn_more>.btn-more-options:focus ~ .cont-sub-menu{
+    display: block;
+}
+
+.cont>.cont-right>.cont-gp-msg>.cont-head>.cont-options>.btn_more>.cont-sub-menu> div{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.cont>.cont-right>.cont-gp-msg>.cont-head>.cont-options>.btn_more>.cont-sub-menu> div:hover{
+    background-color: rgb(253, 235, 218, 0.5);
+    cursor: pointer;
+}
+
+.cont>.cont-right>.cont-gp-msg>.cont-head>.cont-options>.btn_more>.cont-sub-menu> div p{
+    margin-left: 15px;
 }
 
 .cont>.cont-right>.cont-gp-msg>.cont-body{

@@ -9,6 +9,13 @@
     border: 1px solid;
 } */
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px #fff7f0 inset !important;
+}
+
 body{
     display: flex;
     justify-content: center;
@@ -115,6 +122,7 @@ body>img{
     outline: none;
     border: none;
     z-index: 10;
+    width: 100%;
 }
 
 .cont>.register-box>.cont-inputs> input:focus,

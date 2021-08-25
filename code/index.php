@@ -8,14 +8,15 @@
     <title>Login</title>
 </head>
 <body>
+<img src="src/bg.jpg" alt="">
     <div class="cont">
         <div class="cont-header">
             <div class="text">
                 Login
             </div>
-            <div class="btn_login">
+            <!-- <div class="btn_login">
                 <img src="src/iconpack/btn_loginpng.png" alt="" height="33px" width="33px">
-            </div>
+            </div> -->
         </div>
         <form class="register-box" id="form_login" action="#">
             <div class="cont-inputs username">
@@ -30,17 +31,20 @@
                 <input type="password" name="pass" id="pass-input" autocomplete="no" required>
                 <p>Password</p>
             </div>
-            <div>
-                <input id="btn-submit" type="submit" value="Entrar">
-                <a href="app/register.php">Registrar</a>
-            </div>
         </form>
         <div class="cont-gp">
             <div class="cont-photo">
-                <input type="file" id="" class="">
+                <!-- <div class="photoframe">
+
+                </div>
+                <div class="photoframe-status">
+                    Sucesso
+                </div> -->
             </div>
             <div class="cont-btn_register">
-    
+                <input id="btn-submit" type="submit" value="Entrar">
+
+                <a href="app/register.php">Registrar</a>
             </div>
         </div>
     </div>
